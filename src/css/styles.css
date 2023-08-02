@@ -13,8 +13,8 @@ body {
 }
 .cabecera__sec1 {
   width: 48rem;
-  height: 310px;
-  margin-left: -250px;
+  height: 300px;
+  margin-left: -200px;
   background: #c94b4b;
   background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
   background: linear-gradient(to right, #4b134f, #c94b4b);
@@ -66,7 +66,6 @@ body {
   width: 180px;
   height: 180px;
   border-radius: 120px;
-  margin-right: -100px;
   margin-top: 40px;
 }
 /*----------------------*/
@@ -79,10 +78,12 @@ body {
 .hr__medium {
   width: 140px;
   margin-left: 0px;
+  color: #4b134f;
 }
 .hr__large {
   width: 700px;
   justify-content: center;
+  color: #4b134f;
 }
 /*----------------------------------------*/
 .sidebar {
@@ -146,7 +147,7 @@ body {
 }
 .info__academica--contenido ul li {
   font-size: 18px;
-  margin: 8px;
+  margin: 8px 0;
 }
 .info__academica--contenido ul li a {
   text-decoration: none;
@@ -155,172 +156,4 @@ body {
   width: 80px;
   height: 30px;
   margin: 10px 20px;
-}
-
-@media (max-width: 820px) {
-  .cabecera__sec1 {
-    width: 40rem;
-    height: 250px;
-    margin-left: -200px;
-  }
-  .h1 {
-    font-size: 1.8rem;
-    margin: 20px 10px;
-  }
-  .profesion {
-    font-style: italic;
-    font-size: 1.2rem;
-    margin: 0;
-  }
-  .resumen__personal {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.8rem;
-    margin-left: 60px;
-    color: white;
-  }
-
-  .cabecera .foto {
-    width: 140px;
-    height: 140px;
-    border-radius: 120px;
-    /* margin-left: 20px; */
-    margin-top: 40px;
-    margin-right: -80px;
-  }
-  #pdf {
-    /* position: absolute;
-    width: 30px;
-    height: 30px;
-    cursor: pointer; */
-    margin-left: 900px;
-    /* margin-top: 20px; */
-  }
-  .sidebar {
-    width: 250px;
-    margin-left: 300px;
-  }
-  .sidebar h2 {
-    font-size: 18px;
-  }
-  .sidebar .sidebar__info ul li {
-    font-size: 16px;
-    list-style: none;
-    margin-left: -40px;
-    padding: 1px;
-  }
-  .contenido__uno h2 {
-    font-size: 16px;
-  }
-  .contenido__uno ul li {
-    font-size: 16px;
-    margin: 3px;
-    padding-left: 15px;
-  }
-  .info__academica--contenido ul li {
-    font-size: 16px;
-    margin: 8px;
-  }
-  .info__academica {
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-  }
-}
-@media (max-width: 680px) {
-  .cabecera__sec1 {
-    width: 36rem;
-    height: 240px;
-    margin-left: -90px;
-  }
-  .resumen__personal {
-    font-size: 0.7rem;
-    margin-left: -30px;
-    color: white;
-  }
-  .cabecera .foto {
-    width: 160px;
-    height: 160px;
-    border-radius: 120px;
-    /* margin-left: 20px; */
-    margin-top: 40px;
-    margin-right: -160px;
-  }
-  #pdf {
-    /* position: absolute;
-    width: 30px;
-    height: 30px;
-    cursor: pointer; */
-    margin-left: 800px;
-    /* margin-top: 20px; */
-  }
-  .sidebar {
-    width: 250px;
-    margin-left: 350px;
-  }
-  .medium {
-    margin-left: 100px;
-  }
-}
-
-@media (max-width: 500px) {
-  .cabecera__sec1 {
-    width: 25rem;
-    height: 220px;
-    margin-left: -60px;
-  }
-  .h1 {
-    font-size: 1rem;
-    margin: 20px 60px 0px 0px;
-  }
-  .hr__cabecera {
-    width: 150px;
-    margin-right: 160px;
-  }
-  .profesion {
-    font-size: 0.8rem;
-    margin: 0px 70px 0px 0px;
-  }
-  .resumen__personal {
-    font-size: 0.6rem;
-    margin-left: -15px;
-  }
-  .cabecera .foto {
-    width: 80px;
-    height: 80px;
-    border-radius: 120px;
-    margin-top: 40px;
-    margin-right: -10px;
-    margin-left: -40px;
-  }
-  .sidebar {
-    width: 250px;
-    margin-left: 280px;
-  }
-  .sidebar h2 {
-    font-size: 14px;
-  }
-  .sidebar .sidebar__info ul li {
-    font-size: 12px;
-    list-style: none;
-    margin-left: -40px;
-    padding: 1px;
-  }
-  .contenido {
-    margin-top: -20px;
-    margin-left: -40px;
-  }
-
-  .contenido__uno h2 {
-    font-size: 14px;
-  }
-  .contenido .contenido__uno ul li {
-    font-size: 12px;
-  }
-  .info__academica--contenido ul li {
-    font-size: 12px;
-  }
-  .info__academica {
-    margin-left: 5px;
-  }
 }

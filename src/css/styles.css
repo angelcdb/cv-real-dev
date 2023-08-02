@@ -254,30 +254,31 @@ body {
     margin-left: -150px;
   }
   .h1 {
-    font-size: 1.2rem;
-    margin: 20px 10px;
+    font-size: 1rem;
+    margin: 20px 100px 10px 0px;
   }
   .hr__cabecera {
     width: 150px;
+    margin-right: 180px;
   }
   .profesion {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin: 5px 100px 10px 0px;
   }
   .resumen__personal {
     font-size: 0.7rem;
     margin-left: -40px;
   }
   .cabecera .foto {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 120px;
-    /* margin-left: 20px; */
     margin-top: 40px;
-    margin-right: -280px;
+    /* margin-right: -280px; */
   }
   .sidebar {
     width: 250px;
-    margin-left: 150px;
+    margin-left: 200px;
   }
   .sidebar h2 {
     font-size: 14px;

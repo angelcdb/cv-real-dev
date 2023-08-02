@@ -54,7 +54,7 @@ body {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  margin-left: 1130px;
+  margin-left: 1000px;
   margin-top: 20px;
 }
 #pdf:hover {
@@ -188,6 +188,14 @@ body {
     margin-top: 40px;
     margin-right: -80px;
   }
+  #pdf {
+    /* position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer; */
+    margin-left: 900px;
+    /* margin-top: 20px; */
+  }
   .sidebar {
     width: 250px;
     margin-left: 300px;
@@ -238,6 +246,14 @@ body {
     margin-top: 40px;
     margin-right: -160px;
   }
+  #pdf {
+    /* position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer; */
+    margin-left: 800px;
+    /* margin-top: 20px; */
+  }
   .sidebar {
     width: 250px;
     margin-left: 350px;
@@ -249,24 +265,24 @@ body {
 
 @media (max-width: 500px) {
   .cabecera__sec1 {
-    width: 26rem;
-    height: 240px;
+    width: 25rem;
+    height: 220px;
     margin-left: -60px;
   }
   .h1 {
     font-size: 1rem;
-    margin: 20px 100px 0px 0px;
+    margin: 20px 60px 0px 0px;
   }
   .hr__cabecera {
     width: 150px;
-    margin-right: 180px;
+    margin-right: 160px;
   }
   .profesion {
     font-size: 0.8rem;
-    margin: 0px 100px 0px 0px;
+    margin: 0px 70px 0px 0px;
   }
   .resumen__personal {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin-left: -15px;
   }
   .cabecera .foto {
@@ -275,11 +291,11 @@ body {
     border-radius: 120px;
     margin-top: 40px;
     margin-right: -10px;
-    margin-left: -50px;
+    margin-left: -40px;
   }
   .sidebar {
     width: 250px;
-    margin-left: 300px;
+    margin-left: 280px;
   }
   .sidebar h2 {
     font-size: 14px;
@@ -292,7 +308,7 @@ body {
   }
   .contenido {
     margin-top: -20px;
-    margin-left: -30px;
+    margin-left: -40px;
   }
 
   .contenido__uno h2 {

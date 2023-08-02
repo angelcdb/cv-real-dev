@@ -250,12 +250,12 @@ body {
 @media (max-width: 500px) {
   .cabecera__sec1 {
     width: 26rem;
-    height: 200px;
-    margin-left: -150px;
+    height: 240px;
+    margin-left: -60px;
   }
   .h1 {
     font-size: 1rem;
-    margin: 20px 100px 10px 0px;
+    margin: 20px 100px 0px 0px;
   }
   .hr__cabecera {
     width: 150px;
@@ -279,7 +279,7 @@ body {
   }
   .sidebar {
     width: 250px;
-    margin-left: 250px;
+    margin-left: 300px;
   }
   .sidebar h2 {
     font-size: 14px;
@@ -290,6 +290,11 @@ body {
     margin-left: -40px;
     padding: 1px;
   }
+  .contenido {
+    margin-top: -20px;
+    margin-left: -30px;
+  }
+
   .contenido__uno h2 {
     font-size: 14px;
   }

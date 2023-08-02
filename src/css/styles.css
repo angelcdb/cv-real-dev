@@ -246,21 +246,20 @@ body {
 }
 @media (max-width: 500px) {
   .cabecera__sec1 {
-    width: 28rem;
-    height: 160px;
+    width: 20rem;
+    height: 100px;
     margin-left: -150px;
   }
   .h1 {
-    font-size: 1rem;
+    font-size: 0.6rem;
     margin: 20px 10px;
   }
   .profesion {
-    font-size: 0.7rem;
+    font-size: 0.4rem;
   }
   .resumen__personal {
-    font-size: 0.6rem;
+    font-size: 0.2rem;
     margin-left: -20px;
-    color: white;
   }
   .cabecera .foto {
     width: 100px;
@@ -272,18 +271,27 @@ body {
   }
   .sidebar {
     width: 250px;
-    margin-left: 200px;
+    margin-left: 120px;
   }
-  .contenido__uno ul li {
+  .sidebar h2 {
     font-size: 16px;
-    margin: 3px;
-    padding-left: 15px;
+  }
+  .sidebar .sidebar__info ul li {
+    font-size: 14px;
+    list-style: none;
+    margin-left: -40px;
+    padding: 1px;
+  }
+  .contenido__uno h2 {
+    font-size: 16px;
+  }
+  .contenido .contenido__uno ul li {
+    font-size: 14px;
   }
   .info__academica--contenido ul li {
-    font-size: 16px;
-    margin: 8px;
+    font-size: 14px;
   }
   .info__academica {
-    margin-left: 40px;
+    margin-left: 10px;
   }
 }

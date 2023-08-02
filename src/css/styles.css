@@ -13,7 +13,7 @@ body {
 }
 .cabecera__sec1 {
   width: 48rem;
-  height: 300px;
+  height: 320px;
   margin-left: -200px;
   background: #c94b4b;
   background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 2.5rem;
-  margin: 20px 10px;
+  margin: 20px 0 5px 20px;
   color: white;
 }
 
@@ -46,7 +46,7 @@ body {
   justify-content: center;
   text-align: justify;
   font-size: 1rem;
-  margin-left: 60px;
+  margin-left: 80px;
   color: white;
 }
 #pdf {
@@ -102,7 +102,7 @@ body {
 .sidebar__info {
   width: 400px;
   border-radius: 0.5rem;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .sidebar .sidebar__info ul li {
   display: flex;
@@ -147,7 +147,7 @@ body {
 }
 .info__academica--contenido ul li {
   font-size: 18px;
-  margin: 8px 0;
+  margin: 5px 0;
 }
 .info__academica--contenido ul li a {
   text-decoration: none;

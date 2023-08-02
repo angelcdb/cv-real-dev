@@ -169,7 +169,7 @@ body {
   }
   .profesion {
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
   }
   .resumen__personal {
@@ -202,7 +202,7 @@ body {
   .contenido__uno h2 {
     font-size: 16px;
   }
-  .contenido ul {
+  .contenido__uno ul li {
     font-size: 16px;
     margin: 3px;
     padding-left: 15px;
@@ -250,6 +250,13 @@ body {
     height: 200px;
     margin-left: -150px;
   }
+  .h1 {
+    font-size: 1.4rem;
+    margin: 20px 10px;
+  }
+  .profesion {
+    font-size: 0.9rem;
+  }
   .resumen__personal {
     font-size: 0.6rem;
     margin-left: -20px;
@@ -262,5 +269,9 @@ body {
     /* margin-left: 20px; */
     margin-top: 40px;
     margin-right: -280px;
+  }
+  .sidebar {
+    width: 250px;
+    margin-left: 300px;
   }
 }

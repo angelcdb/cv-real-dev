@@ -45,8 +45,9 @@ body {
 .resumen__personal {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-left: 100px;
   color: white;
 }
@@ -97,13 +98,13 @@ body {
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   color: #4b134f;
-  margin: 5px 0 0 0;
+  margin: 0;
 }
 
 .sidebar__info {
   width: 400px;
   border-radius: 0.5rem;
-  margin: 5px 0;
+  margin: 0;
 }
 .sidebar .sidebar__info ul li {
   display: flex;
@@ -146,6 +147,9 @@ body {
 .info__academica--contenido {
   display: flex;
 }
+.info__academica--contenido ul {
+  margin: 5px 0;
+}
 .info__academica--contenido ul li {
   font-size: 18px;
   margin: 5px 0 0 20px;
@@ -158,5 +162,5 @@ body {
   width: 80px;
   height: 30px;
   /* margin: 10px 20px; */
-  margin: 0px 0 0 50px;
+  margin: 0 0 0 50px;
 }
